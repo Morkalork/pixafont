@@ -1,6 +1,8 @@
 # pixafont
 
-This library can be used to generate pixel fonts. Quite handy, under very specific circumstances...
+This library can be used to generate pixel fonts. Quite handy, under very specific circumstances.
+
+Each letter will always be 5x5 at most, but some letters may be smaller than this.
 
 # Installing
 
