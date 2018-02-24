@@ -1,0 +1,24 @@
+{
+  "name": "pixafont",
+  "version": "1.0.0",
+  "description": "A library used to generate pixel font",
+  "main": "index.js",
+  "scripts": {
+    "test": "npm t"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Morkalork/pixafont.git"
+  },
+  "keywords": [
+    "pixel",
+    "font",
+    "bacon"
+  ],
+  "author": "Magnus Ferm <Maffelu@gmail.com> (http://www.maffelu.net)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Morkalork/pixafont/issues"
+  },
+  "homepage": "https://github.com/Morkalork/pixafont#readme"
+}

@@ -1,0 +1,3 @@
+# pixafont
+
+This library can be used to generate pixel fonts. Quite handy, under very specific circumstances...
