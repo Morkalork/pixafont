@@ -17,3 +17,5 @@ for (let row = 0; row < 5; row++) {
   }
   console.log(line.join(''));
 }
+
+console.log(result);

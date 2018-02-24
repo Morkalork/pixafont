@@ -5,7 +5,7 @@
  * @param {number} startY The start Y position
  * @returns {array} An array of coordinates describing the letter
  */
-module.exports = (letter, startX, startY) => {
+module.exports = (letter, startX = 0, startY = 0) => {
   if(!/[a-z0-9]/.test(letter)) {
     throw new Error('The letter must be a letter, not something un-lettery.');
   }
