@@ -1,5 +1,5 @@
 /**
- * 
+ * Pixafont will return the coordinates needed to draw a letter or a number
  * @param {string} letter The letter you want to generate in pixel form
  * @param {number} startX The start X position
  * @param {number} startY The start Y position
@@ -18,7 +18,7 @@ module.exports = (letter, startX, startY) => {
     throw new Error(`Y must be a number, you sent in a "${typeof startY}"`);
   }
 
-  const letterArray = require(`./letters/${letter}.js`);
+  const letterArray = require(`./characters/${letter}.js`);
   return letterArray.map((letter) => [
     startX > 0 ? letter[0] * startX : letter[0], 
     startY > 0 ? letter[1] * startY : letter[1]
