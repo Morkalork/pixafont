@@ -21,7 +21,7 @@ module.exports = (character, startX = 0, startY = 0) => {
 
   const letterArray = require(`./characters/${safeCharacter}.js`);
   return letterArray.map((letter) => [
-    startX > 0 ? letter[0] * startX : letter[0], 
-    startY > 0 ? letter[1] * startY : letter[1]
+    startX > 0 ? letter[0] + startX : letter[0], 
+    startY > 0 ? letter[1] + startY : letter[1]
   ]);
 }

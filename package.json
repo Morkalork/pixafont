@@ -1,6 +1,6 @@
 {
   "name": "pixafont",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "A library used to generate pixel font",
   "main": "index.js",
   "scripts": {
